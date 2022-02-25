@@ -1,0 +1,44 @@
+F:\Data Manager\DataManage-EXE\obj\Debug\Interop.MSORUNLib.dll
+F:\Data Manager\DataManage-EXE\obj\Debug\Interop.StdFormat.dll
+F:\Data Manager\DataManage-EXE\obj\Debug\Dc_DataManger.vbproj.ResolveComReference.cache
+F:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.exe
+F:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.pdb
+F:\Data Manager\DataManage-EXE\bin\Datamanger10.exe
+F:\Data Manager\DataManage-EXE\bin\Datamanger10.pdb
+F:\Data Manager\DataManage-EXE\bin\Datamanger10.xml
+F:\Data Manager\DataManage-EXE\bin\Interop.MSORUNLib.dll
+F:\Data Manager\DataManage-EXE\obj\Debug\ResolveAssemblyReference.cache
+F:\Data Manager\DataManage-EXE\obj\Debug\TestForm.resources
+F:\Data Manager\DataManage-EXE\obj\Debug\Dc_DataManger.vbproj.GenerateResource.Cache
+F:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.xml
+G:\Data Manager\DataManage-EXE\obj\Debug\Interop.MSORUNLib.dll
+G:\Data Manager\DataManage-EXE\obj\Debug\Interop.StdFormat.dll
+G:\Data Manager\DataManage-EXE\obj\Debug\Dc_DataManger.vbproj.ResolveComReference.cache
+G:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.exe
+G:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.xml
+G:\Data Manager\DataManage-EXE\obj\Debug\Datamanger10.pdb
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\Datamanger40.exe
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\Datamanger40.pdb
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\Datamanger40.xml
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\System.dll
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\System.Drawing.dll
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\bin\System.Windows.Forms.dll
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\Dc_DataManger.vbprojResolveAssemblyReference.cache
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\TestForm.resources
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\Dc_DataManger.vbproj.GenerateResource.Cache
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\Datamanger40.exe
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\Datamanger40.xml
+I:\EgyFirst\Data Manager\DataManage-EXE - Copy\obj\Debug\Datamanger40.pdb
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\Datamanger40.exe
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\Datamanger40.pdb
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\Datamanger40.xml
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\System.dll
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\System.Drawing.dll
+I:\EgyFirst\Data Manager\DataManage-EXE\bin\System.Windows.Forms.dll
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\DataHelpForm.resources
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\HelpForm.resources
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\TestForm.resources
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\Dc_DataManger.vbproj.GenerateResource.Cache
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\Datamanger40.exe
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\Datamanger40.xml
+I:\EgyFirst\Data Manager\DataManage-EXE\obj\Debug\Datamanger40.pdb

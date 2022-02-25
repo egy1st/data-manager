@@ -1,0 +1,10 @@
+F:\Data Manager\DataManage-Configure\obj\Debug\Configuration Utility.vbproj.ResolveComReference.cache
+F:\Data Manager\DataManage-Configure\obj\Debug\Configuration Utility.exe
+F:\Data Manager\DataManage-Configure\obj\Debug\Configuration Utility.pdb
+F:\Data Manager\DataManage-Configure\obj\Debug\ResolveAssemblyReference.cache
+F:\Data Manager\DataManage-Configure\obj\Debug\DynamicComponents.ConfigurationForm.resources
+F:\Data Manager\DataManage-Configure\obj\Debug\Configuration Utility.vbproj.GenerateResource.Cache
+F:\Data Manager\DataManage-Configure\bin\Configuration Utility.exe
+F:\Data Manager\DataManage-Configure\bin\Configuration Utility.pdb
+F:\Data Manager\DataManage-Configure\bin\Configuration Utility.xml
+F:\Data Manager\DataManage-Configure\obj\Debug\Configuration Utility.xml

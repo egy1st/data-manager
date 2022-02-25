@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Go First</TITLE>
+</HEAD>
+<BODY>
+<H1><font color="#000080">GoNext</H1>
+<H1>
+<HR>
+</H1>
+<P></font>this function move your recordset to first record and populate your 
+form and its grid with related fields</P>
+<FONT color=#000080>
+<P><STRONG><FONT color=#000080>Syntax:</FONT></STRONG></P><FONT 
+color=#000000>
+<p>Function GoFirst(ByRef dm_Form As System.Windows.Forms.Form, ByRef dm_MasterTable As 
+ADODB.Recordset, Optional ByRef dm_Grid As AxMSDataGridLib.AxDataGrid = Nothing, 
+Optional ByRef dm_DetailTable As ADODB.Recordset = Nothing)</p>
+</FONT>
+<P><STRONG>Example:</STRONG></P></FONT>
+<p>Dim oMaster As New ADODB.Recordset()<br>
+Dim oDetails As New ADODB.Recordset()</p>
+<FONT size=3 color="#000000">
+<p>DM.<FONT 
+color=#000000>GoFirst</FONT>(Me, oMaster, MyGrid, oDetails)</p>
+<P>&nbsp;</P></FONT>
+</BODY>
+</HTML>

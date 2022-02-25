@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Search Function</TITLE>
+</HEAD>
+<BODY>
+<H1><font color="#000080">Search Function</H1>
+<H1>
+<HR>
+</H1>
+<P></font>this function enables you to search your recordset for any combination 
+with Exact or Soft seek<br>
+this mean you can search for &quot;Computer&quot; and find any field with this word 
+exactly , or you can search for &quot;Com&quot; and find any field contain this letters 
+like &quot;Commerce&quot; , &quot;Welcome&quot;</P>
+<FONT color=#000080>
+<P><STRONG><FONT color=#000080>Syntax:</FONT></STRONG></P><FONT 
+color=#000000>
+<p>Function Search(ByRef dm_Form As System.Windows.Forms.Form, ByRef 
+dm_MasterTable As ADODB.Recordset, Optional ByRef dm_Grid As 
+AxMSDataGridLib.AxDataGrid = Nothing, Optional ByRef dm_DetailTable As 
+ADODB.Recordset = Nothing)</p>
+</FONT>
+<P><STRONG>Example:</STRONG></P></FONT>
+<p>Dim oMaster As New ADODB.Recordset()<br>
+Dim oDetails As New ADODB.Recordset()</p>
+<FONT size=3 color="#000000">
+<p>DM.Search(Me, oMaster, MyGrid, oDetails)</p>
+<P>&nbsp;</P></FONT>
+</BODY>
+</HTML>

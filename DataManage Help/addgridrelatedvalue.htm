@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>AddGridRelatedValue</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>AddGridRelatedValue
+<HR>
+</FONT></H1><FONT size=2> </FONT>
+<P>It retrieve the related value to your grid field code</P>
+<P>assume you save Productt_Code in your Detail recordset</P>
+<P>when you retrieve data you also want to get Product_Name 
+form Products table . AddRelatedValue Function do that for you easily</P>
+<P><img border="0" src="addgridrelatedvalue.gif" width="488" height="368"></P>
+<P><FONT color=#000080 ><STRONG>Syntax:</STRONG></FONT></P><FONT 
+color=#0000ff size=2><FONT color=#000000 size=3><FONT color=#0000ff size=2>
+<P><FONT color=#000000 size=3>Function</FONT></FONT> AddGridRelatedValue(ByVal 
+str_Table As String, ByVal str_TableKey As String, ByVal str_Column As String, 
+ByVal str_TableRetField As String, ByVal str_GridRetColumn As String, ByVal 
+n_ZeroPad As Byte<FONT size=2><FONT size=3>)</FONT></P>
+<P></FONT></FONT></FONT><STRONG><FONT color=#000080 
+size=3>Note:</FONT></STRONG></P>
+<P><FONT size=3>n_ZeroPad parameter padding data with "0" character</FONT></P>
+<P><FONT size=3>this mean that '34' with&nbsp; n_ZeroPad is 4 will be '0034' 
+</FONT></P>
+<P><FONT size=3>this is useful for indexing and searching purposes if you want , 
+remember that is an optional parameter</FONT></P>
+<P><STRONG><FONT color=#000080 size=3>Example:</FONT></STRONG></P><FONT 
+size=3><FONT size=3>
+<P>DM.AddGridRelatedValue("Products", "ProductID", "ProductID", "ProductName", 
+"ProductName", 2)</P></FONT></FONT>
+</BODY>
+</HTML>

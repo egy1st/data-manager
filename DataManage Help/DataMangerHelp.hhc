@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800027">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DC.DataManger">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DynamicComponents DataManger">
+			<param name="Local" value="DynamicComponents%20DataManger.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Overview">
+			<param name="Local" value="Overview.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Features">
+			<param name="Local" value="Features.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Convention">
+			<param name="Local" value="Convention.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Getting Started">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="System Requirements">
+				<param name="Local" value="System%20Requirements.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Installing DC.DataManger COM">
+				<param name="Local" value="Installing%20DataManger%20COM.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Including DC.DataManger">
+				<param name="Local" value="Including%20DC.DataManger.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Deploying DataManger COM Applications">
+				<param name="Local" value="Deploying%20DynamicRecordset%20COM%20Applications.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Create a DSN">
+				<param name="Local" value="How%20to%20Create%20DSN.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="How to Use">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Binding Recordset Methods">
+				<param name="ImageNumber" value="1">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="InitForm">
+					<param name="Local" value="InitForm.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="KeyFields">
+					<param name="Local" value="KeyFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="KeyLeaveField">
+					<param name="Local" value="KeyLeaveField.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SetLink">
+					<param name="Local" value="SetLink.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="AddRelatedValue">
+					<param name="Local" value="addrelatedvalue.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="AddGridRelatedValue">
+					<param name="Local" value="AddGridRelatedValue.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FlagField">
+					<param name="Local" value="FlagField.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SaveData">
+					<param name="Local" value="SaveData.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Holdsaving">
+					<param name="Local" value="Holdsaving.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Releasesaving">
+					<param name="Local" value="Releasesaving.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="DeleteRecord">
+					<param name="Local" value="DeleteRecord.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="NewRecord">
+					<param name="Local" value="NewRecord.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ValidateForm">
+					<param name="Local" value="ValidateForm.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GoFirst">
+					<param name="Local" value="GoFirst.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GoLast">
+					<param name="Local" value="GoLast.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GoNext">
+					<param name="Local" value="GoNext.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GoPrevious">
+					<param name="Local" value="GoPrevious.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="CloseForm">
+					<param name="Local" value="CloseForm.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SearchFunction">
+					<param name="Local" value="SearchFunc.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="How to select some fields">
+					<param name="Local" value="how_to_select_some_fields.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Search">
+					<param name="Local" value="Search.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="PopulateForm">
+					<param name="Local" value="PopulateForm.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Validation">
+				<param name="ImageNumber" value="1">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="NumericFields">
+					<param name="Local" value="NumericFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="AlphabeticFields">
+					<param name="Local" value="AlphabeticFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="AlphaNumericFields">
+					<param name="Local" value="AlphaNumericFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="DateFields">
+					<param name="Local" value="DateFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="DecimalFields">
+					<param name="Local" value="DecimalFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SpecialChars">
+					<param name="Local" value="SpecialChars.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SpecialCharsFields">
+					<param name="Local" value="SpecialCharsFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RequiredFields">
+					<param name="Local" value="RequiredFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Formating">
+				<param name="ImageNumber" value="1">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="LowerCaseFields">
+					<param name="Local" value="LowerCaseFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UpperCaseFields">
+					<param name="Local" value="UpperCaseFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="DecimalPlaces">
+					<param name="Local" value="DecimalPlaces.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FirstCharOnlyFields">
+					<param name="Local" value="FirstCharOnlyFields.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FirstCharOfWordsFields">
+					<param name="Local" value="FirstCharOfWordsFields.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Buttons">
+				<param name="ImageNumber" value="1">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="PrepareImageButtons">
+					<param name="Local" value="PrepareImageButtons.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="NavigationButtons">
+					<param name="Local" value="NavigationButtons.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ManipulationButtons">
+					<param name="Local" value="ManageButtons.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sensitive  F1 &amp; F12">
+				<param name="ImageNumber" value="1">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Senstive F1 DataHelp">
+					<param name="Local" value="Senstive%20F1%20DataHelp.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Sensitive F12 Help">
+					<param name="Local" value="Sensitive%20F12%20Help.htm">
+					<param name="ImageNumber" value="9">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Multi Language Support">
+				<param name="WindowName" value="Multi Language Support">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Translate Form">
+					<param name="Local" value="TranslateForm.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="FlipForm">
+					<param name="Local" value="FlipForm.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Right2Left">
+					<param name="Local" value="Right2Left.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="EnableReturnKey">
+				<param name="Local" value="EnableReturnKey.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Configuration Utility">
+				<param name="Local" value="Configuration%20Utility.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorials">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tutorial">
+				<param name="Local" value="Tutorial.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Product information">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Contact us">
+				<param name="Local" value="Contact%20us.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="License">
+				<param name="Local" value="License.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to order">
+				<param name="Local" value="How%20to%20order.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Register your Copy">
+				<param name="Local" value="How%20to%20Register%20your%20Copy.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

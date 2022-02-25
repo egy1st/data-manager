@@ -1,0 +1,57 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=DC Data Manger v1.0.chm
+Contents file=DataMangerHelp.hhc
+Default topic=DynamicComponents DataManger.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=DataMangerHelp.hhk
+Language=0x409 English (United States)
+Title=DC Data Manger Help
+
+
+[FILES]
+addgridrelatedvalue.htm
+addrelatedvalue.htm
+alphabeticfields.htm
+alphanumericfields.htm
+contact us.htm
+datefields.htm
+decimalfields.htm
+decimalplaces.htm
+deploying dynamicrecordset com applications.htm
+dynamiccomponents datamanger.htm
+enablereturnkey.htm
+features.htm
+firstcharonlyfields.htm
+flagfield.htm
+how to order.htm
+initform.htm
+installing datamanger com.htm
+keyfields.htm
+keyleavefield.htm
+license.htm
+lowercasefields.htm
+managebuttons.htm
+navigationbuttons.htm
+numericfields.htm
+overview.htm
+populateform.htm
+prepareimagebuttons.htm
+requiredfields.htm
+sensitive f12 help.htm
+senstive f1 datahelp.htm
+setlink.htm
+specialchars.htm
+specialcharsfields.htm
+system requirements.htm
+uppercasefields.htm
+TranslateForm.htm
+FlipForm.htm
+Convention.htm
+Including DC.DataManger.htm
+Configuration Utility.htm
+FirstCharOfWordsFields.htm
+
+[INFOTYPES]
+

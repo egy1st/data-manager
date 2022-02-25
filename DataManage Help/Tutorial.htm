@@ -1,0 +1,91 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tutorial</title>
+</head>
+
+<body>
+
+<h1 dir="ltr"><span style="font-weight: 400"><font color="#000080">Tutorial</font></span></h1>
+<hr dir="ltr">
+<p dir="ltr">This tutorial describe most of features supported by DC.DataManger</p>
+<p dir="ltr">also you can refer to the project&nbsp; example which installed by 
+default into C:\Program Files\Dynamic Components\Data Manger\<span style="font-weight: 400">Tutorial\</span></p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">Dim DM As New DynamicComponents.DataManger()</p>
+<p dir="ltr">Dim aImage(26) As String</p>
+<p dir="ltr">Dim CN As New ADODB.Connection()</p>
+<p dir="ltr">Dim oMaster As New ADODB.Recordset()</p>
+<p dir="ltr">Dim oDetails As New ADODB.Recordset()</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr"><font color="#000080">Private Sub TestForm_Load(ByVal eventSender As System.Object, ByVal 
+eventArgs As System.EventArgs) Handles MyBase.Load</font></p>
+<p dir="ltr">PopulateaImage()</p>
+<p dir="ltr">CN.Open(&quot;DSN=Me&quot;)</p>
+<p dir="ltr">oMaster.Open(&quot;Orders&quot;, CN, oMaster.CursorType.adOpenKeyset, 
+oMaster.LockType.adLockOptimistic)</p>
+<p dir="ltr">oDetails.Open(&quot;OrderDetails&quot;, CN, oDetails.CursorType.adOpenKeyset, 
+oDetails.LockType.adLockOptimistic)</p>
+<p dir="ltr">DM.InitForm(CN, Me, oMaster, AxDataGrid1, oDetails)</p>
+<p dir="ltr">DM.PrepareImageButtons(aImage, &quot;F:\DataManage-ADO\icons\&quot;, False)</p>
+<p dir="ltr">DM.NavigationButtons(&quot;FirstButton&quot;, &quot;PrevButton&quot;, &quot;NextButton&quot;, &quot;LastButton&quot;)</p>
+<p dir="ltr">DM.ManipulationButtons(&quot;OkButton&quot;, &quot;NewButton&quot;, &quot;DeleteButton&quot;, &quot;ExitButton&quot;, 
+&quot;SearchButton&quot;)</p>
+<p dir="ltr">DM.KeyFields(&quot;OrderId&quot;)</p>
+<p dir="ltr">DM.SetLink(&quot;OrderId&quot;, &quot;OrderId&quot;)</p>
+<p dir="ltr">AxDataGrid1.DataSource = oDetails</p>
+<p dir="ltr">DM.AddRelatedValue(&quot;Customers&quot;, &quot;CustomerID&quot;, &quot;CustomerID&quot;, &quot;CustomerName&quot;, 
+&quot;xCustomerName&quot;, 3)</p>
+<p dir="ltr">DM.AddRelatedValue(&quot;Shippers&quot;, &quot;ShipperId&quot;, &quot;ShipVia&quot;, &quot;CompanyName&quot;, 
+&quot;xCompanyName&quot;, 2)</p>
+<p dir="ltr">DM.AddGridRelatedValue(&quot;Products&quot;, &quot;ProductID&quot;, &quot;ProductID&quot;, &quot;ProductName&quot;, 
+&quot;ProductName&quot;, 2)</p>
+<p dir="ltr">DM.KeyLeaveField(oMaster, &quot;OrderId&quot;, 5)</p>
+<p dir="ltr">DM.RequiredFields(&quot;OrderId+OrderDate+CustomerId&quot;)</p>
+<p dir="ltr">DM.NumericFields(&quot;CustomerID&quot;, &quot;OrderId&quot;, &quot;ShipVia&quot;)</p>
+<p dir="ltr">DM.DecimalFields(&quot;Freight&quot;)</p>
+<p dir="ltr">DM.DateFields(&quot;OrderDate&quot;)</p>
+<p dir="ltr">DM.DecimalPlaces(2)</p>
+<p dir="ltr">DM.EnableReturnKey(True)</p>
+<p dir="ltr">DM.Right2Left(True)</p>
+<p dir="ltr">DM.FlipForm(Me)</p>
+<p dir="ltr">DM.TranslateForm(Me, 1)</p>
+<p dir="ltr">DM.PopulateForm(Me, oMaster, AxDataGrid1, oDetails)</p>
+<p dir="ltr">End Sub</p>
+<p dir="ltr">Private Sub PopulateaImage()</p>
+<p dir="ltr">aImage(0) = &quot;First.ico&quot;</p>
+<p dir="ltr">aImage(1) = &quot;FirstOver.ico&quot;</p>
+<p dir="ltr">aImage(2) = &quot;FirstDown.ico&quot;</p>
+<p dir="ltr">aImage(3) = &quot;Previous.ico&quot;</p>
+<p dir="ltr">aImage(4) = &quot;PreviousOver.ico&quot;</p>
+<p dir="ltr">aImage(5) = &quot;PreviousDown.ico&quot;</p>
+<p dir="ltr">aImage(6) = &quot;Next.ico&quot;</p>
+<p dir="ltr">aImage(7) = &quot;NextOver.ico&quot;</p>
+<p dir="ltr">aImage(8) = &quot;NextDown.ico&quot;</p>
+<p dir="ltr">aImage(9) = &quot;Last.ico&quot;</p>
+<p dir="ltr">aImage(10) = &quot;LastOver.ico&quot;</p>
+<p dir="ltr">aImage(11) = &quot;LastDown.ico&quot;</p>
+<p dir="ltr">aImage(12) = &quot;Ok.ico&quot;</p>
+<p dir="ltr">aImage(13) = &quot;OkOver.ico&quot;</p>
+<p dir="ltr">aImage(14) = &quot;OkDown.ico&quot;</p>
+<p dir="ltr">aImage(15) = &quot;New.ico&quot;</p>
+<p dir="ltr">aImage(16) = &quot;NewOver.ico&quot;</p>
+<p dir="ltr">aImage(17) = &quot;NewDown.ico&quot;</p>
+<p dir="ltr">aImage(18) = &quot;Delete.ico&quot;</p>
+<p dir="ltr">aImage(19) = &quot;DeleteOver.ico&quot;</p>
+<p dir="ltr">aImage(20) = &quot;DeleteDown.ico&quot;</p>
+<p dir="ltr">aImage(21) = &quot;Exit.ico&quot;</p>
+<p dir="ltr">aImage(22) = &quot;ExitOver.ico&quot;</p>
+<p dir="ltr">aImage(23) = &quot;ExitDown.ico&quot;</p>
+<p dir="ltr">aImage(24) = &quot;Search.ico&quot;</p>
+<p dir="ltr">aImage(25) = &quot;SearchOver.ico&quot;</p>
+<p dir="ltr">aImage(26) = &quot;SearchDown.ico&quot;</p>
+<p dir="ltr"><font color="#000080">End Sub</font></p>
+
+</body>
+
+</html>

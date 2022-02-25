@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>PrepareImageButtons</TITLE>
+<OBJECT
+id=popup type=application/x-oleobject
+classid=clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11
+width=10 height=10><PARAM name="command" value="related topics"></OBJECT>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>PrepareImageButtons
+<HR>
+</FONT></H1>
+<P>Your Data Form have <a href="NavigationButtons.htm">Navigation</a> &amp;
+<a href="ManageButtons.htm">Manipulation</a> Buttons  </P>
+<P>you can assign changeable icons for each button , additionally ,you can assign a motion for
+each button if you put third parameter to true &nbsp;,all you need
+  is</P>
+<OL>
+  <LI dir="ltr">
+  <p align="left" dir="ltr">Declare an array with 27 element 
+  <LI dir="ltr">
+  <p align="left" dir="ltr">Assign 3 icons for each button </LI></OL>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First icon for MouseLeave state </P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; second icon for MoveOver state</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; third icon for MoveDown state</P>
+<P align="left" dir="ltr">&nbsp;&nbsp; 3. Populate your array respectivly with icons as this 
+sequence</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FirstButton_MouseLeave ,<FONT 
+size=3> FirstButton_</FONT>MouseOver,<FONT size=2><FONT size=3> 
+FirstButton_</FONT>MouseDown</FONT></P>
+<P align="left" dir="ltr"><FONT size=3>&nbsp;&nbsp;&nbsp; &nbsp; 
+PreviousButton_</FONT>MouseLeave ,<FONT size=2><FONT size=3> 
+PreviousButton_</FONT>MouseOver,<FONT size=3> 
+PreviousButton_</FONT>MouseDown</P>
+<P align="left" dir="ltr">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; NextButton_MouseLeave , NextButton_MouseOver, 
+NextButton_MouseDown</FONT></P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp; LastButton_MouseLeave , LastButton_MouseOver, LastButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp; SavedataButton_MouseLeave , SavedataButton_MouseOver, 
+SavedataButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp; NewdataButton_MouseLeave , NewdataButton_MouseOver, 
+NewdataButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp; DeleteDataButton_MouseLeave , DeleteDataButton_MouseOver, 
+DeleteDataButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp; CloseFormButton_MouseLeave , CloseFormButton_MouseOver, 
+CloseFormButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp; and optionally you can add SearchButton_MouseLeave , SearchButton_MouseOver,<br>
+&nbsp;&nbsp;&nbsp; SearchButton_MouseDown</P>
+<P align="left" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp; </P>
+<P align="left" dir="ltr"><FONT color=#000080><STRONG>Syntax:</STRONG></FONT></P><FONT color=#0000ff 
+size=2>
+<P align="left" dir="ltr"><FONT color=#000000 size=3>Function</FONT></FONT> PrepareImageButtons(ByVal 
+ImagesArray() As String, ByVal ImageFullPath As String, ByVal Motion As 
+Boolean)</P>
+<P align="left" dir="ltr"><FONT color=#000080><STRONG>Example:</STRONG></FONT></P><FONT size=2>
+<P align="left" dir="ltr"></FONT><FONT size=3>DM.PrepareImageButtons(aImage, "C:\MyApp\Icons\", 
+True)</FONT></P>
+<P align="left" dir="ltr">where aImage is your array hold icons</P>
+<P align="left" dir="ltr">third parameter idicate that you wih to show motion with each button<FONT 
+size=2></P></FONT>
+<P>&nbsp;</P>
+<ul>
+  <li dir="ltr">
+<P dir="ltr"><font color="#000080">Buttons without Motion</font></P>
+  </li>
+</ul>
+<P>
+<img border="0" src="ImageButtons.gif" width="480" height="64">&nbsp;&nbsp;&nbsp; </P>
+<ul>
+  <li><font color="#000080">Buttons with Motion</font></li>
+</ul>
+<P><img border="0" src="ImageButtons2.gif" width="476" height="52"></P>
+</BODY>
+</HTML>

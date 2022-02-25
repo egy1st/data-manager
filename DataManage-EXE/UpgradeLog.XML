@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Dc_DataManger">
+</Property><Property Name="Solution File" Value="I:\EgyFirst\Data Manager\DataManage-EXE\Dc_DataManger.sln">
+</Property><Property Name="User Options File" Value="I:\EgyFirst\Data Manager\DataManage-EXE\Dc_DataManger.suo">
+</Property><Property Name="Date" Value="Monday, October 17, 2016">
+</Property><Property Name="Time" Value="7:19 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Dc_DataManger.sln" Description="File successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\Dc_DataManger.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Dc_DataManger.suo" Description="File successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\Dc_DataManger.suo">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="Dc_DataManger.vbproj" Description="Project file successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\Dc_DataManger.vbproj">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="Dc_DataManger.vbproj.user" Description="Project user file successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\Dc_DataManger.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="AssemblyInfo.vb" Description="File successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="TestForm.vb" Description="File successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\TestForm.vb">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="TestForm.resx" Description="File successfully backed up as I:\EgyFirst\Data Manager\DataManage-EXE\Backup\TestForm.resx">
+</Event><Event ErrorLevel="1" Project="Dc_DataManger" Source="Dc_DataManger.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="Dc_DataManger.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Dc_DataManger" Source="Dc_DataManger.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Dc_DataManger.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Dc_DataManger.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Dc_DataManger" Source="Dc_DataManger.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

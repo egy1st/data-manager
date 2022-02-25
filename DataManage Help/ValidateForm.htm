@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Validate Form</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>ValidateForm<HR>
+</FONT></H1><FONT color=#0000ff size=2></FONT>
+<P><FONT color=#000000 size=3>it </FONT>Validate your form to assure that all 
+required fields are not empty</P>
+<P><STRONG><FONT color=#000080 size=3>Syntax:</FONT></STRONG></P><FONT 
+color=#000000 size=3><FONT color=#0000ff size=2>
+<P><FONT color=#000000 size=3>Function</FONT></FONT> ValidateForm(ByRef dm_Form 
+As System.Windows.Forms.Form) As Boolean</P>
+<P><STRONG><FONT color=#000080 size=3>Not:e:</FONT></STRONG></P></FONT>
+<FONT size=3>
+<P>it return true if all required fields are</FONT><FONT 
+color=#000080 size=3><FONT 
+color=#000000 size=3> not empty , otherwise it returns false</FONT></P></FONT>
+<P><STRONG>Example:</STRONG></P><FONT size=2>
+<P>you may add this code in your form_Load event</P>
+<P>DM.RequiredFields(&quot;Order_ID+Order_Date)</P>
+<P>and now add this code in your OK button (Save data)</P>
+<P><FONT size=3>If Not DM.</FONT><FONT 
+color=#000000 size=3>ValidateForm</FONT><FONT size=3>(Me) Then Exit Sub</FONT></P></FONT>
+</BODY>
+</HTML>

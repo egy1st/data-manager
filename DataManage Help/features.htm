@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Features</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>Features
+<HR>
+</FONT></H1>
+<P>Few&nbsp; Lines to add in your Form_Load event&nbsp; and you will get full 
+control over your form and all included (TextBox - 
+Lables-Buttons-Grid-Recordset) and all related events 
+(Leave-paint-Keypress-AfterColEdit-OnAddNew-Click-MouseEnter-MouseLeave-MouseDown-Enter)</P>
+<P><FONT color=#000080><STRONG>You can:</STRONG></FONT></P>
+<UL>
+  <LI>Navigate first ,previous , next and last 
+  <LI>Add new records ,edit it ,save it , or delete it 
+  <LI>Retrieve related names to your fields code 
+  <LI>Trigger sensitive DataHelp to select from&nbsp;by 
+  pressing F1 
+  <LI>Trigger sensitive Help by pressing F12&nbsp; 
+  <LI>Validate your entry by restrict it to predefined 
+  type(Numeric-Alphabetic-AlphaNumeric-Date-Decimal) or to your defined 
+  characters 
+  <LI>Notify you with red  forecolor if&nbsp; your entry is not proper
+  <LI>Format data by define decimal places for numeric entry 
+  , or define letter case for charactes entry 
+  <LI>Change button image according to mouse movement or 
+  focus change 
+  <LI>Support MultiLanguage Application , by populate form 
+  labels with predefined translation automatically 
+  <LI>Support Eastern Language , we support right to left 
+  application by changing alignment to right and orientation 
+  by flip form horizontally 180&nbsp;&nbsp; 
+  <LI>          Enable you 
+  navigate through controls with Return key as with tab 
+  key</LI></UL>
+<FONT 
+size=2>
+<P></FONT><FONT color=#000080><STRONG>Example:</STRONG></FONT></P>
+<P>dm.<A href="InitForm.htm">InitForm</A>(CN, Me, oMaster, AxDataGrid1, 
+oDetails)</P>
+<P>dm.<A 
+href="PrepareImageButtons.htm">PrepareImageButtons</A>(aImage, "C:\DataManage\Icons\", False)</P>
+<P>dm.<A 
+href="NavigationButtons.htm">NavigationButtons</A>("FirstButton", "PrevButton", "NextButton", 
+"LastButton")</P>
+<P>dm.<A 
+href="ManageButtons.htm">ManageButtons</A>("OkButton", "NewButton", "DeleteButton", "ExitButton", 
+"SearchButton")</P>
+<P>dm.<A href="KeyFields.htm">KeyFields</A>("OrderId")</P>
+<P>dm.<A href="SetLink.htm">SetLink</A>("OrderId", "OrderId")</P>
+<P>dm.<A href="AddRelatedValue.htm">AddRelatedValue</A>("Customers", 
+"CustomerID", "CustomerID", "CustomerName", "xCustomerName", 3)</P>
+<P>dm.<A href="AddGridRelatedValue.htm">AddGridRelatedValue</A>("Products", 
+"ProductID", "ProductID", "ProductName", "ProductName", 2)</P>
+<P>dm.<A href="KeyLeaveField.htm">KeyLeaveField</A>(oMaster, "OrderId", 5)</P>
+<P>dm.<A 
+href="RequiredFields.htm">RequiredFields</A>("OrderId+OrderDate+CustomerId")</P>
+<P>dm.<A href="NumericFields.htm">NumericFields</A>("CustomerID", "OrderId", 
+"ShipVia")</P>
+<P>dm.<A href="DateFields.htm">DateFields</A>("OrderDate")</P>
+<P>dm.<A href="PopulateForm.htm">PopulateForm</A>(Me, oMaster, AxDataGrid1, 
+oDetails)</P>
+<P><font color="#000080" size="4">after this few lines you will get full automated controling on your form 
+without any additional code to write , it is incredible !</font></P>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

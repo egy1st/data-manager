@@ -1,0 +1,8 @@
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\Dc_DataManger.vbprojResolveAssemblyReference.cache
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.DynamicComponents.DataManger.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.ConfigurationForm.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.DataHelpForm.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.HelpForm.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.RegisterForm.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\DynamicComponents.TestForm.resources
+I:\EgyFirst\Data Manager\DataManage-Master\obj\Debug\Dc_DataManger.vbproj.GenerateResource.Cache

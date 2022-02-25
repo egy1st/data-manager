@@ -1,0 +1,9 @@
+F:\Data Manager\ActivationKey\obj\Debug\ActivationKey.exe
+F:\Data Manager\ActivationKey\obj\Debug\ActivationKey.pdb
+F:\Data Manager\ActivationKey\bin\ActivationKey.exe
+F:\Data Manager\ActivationKey\bin\ActivationKey.pdb
+F:\Data Manager\ActivationKey\bin\ActivationKey.xml
+F:\Data Manager\ActivationKey\obj\Debug\ResolveAssemblyReference.cache
+F:\Data Manager\ActivationKey\obj\Debug\ActivationKey.ActivationForm.resources
+F:\Data Manager\ActivationKey\obj\Debug\ActivationKey.vbproj.GenerateResource.Cache
+F:\Data Manager\ActivationKey\obj\Debug\ActivationKey.xml

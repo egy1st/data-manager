@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>KeyLeaveField</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>KeyLeaveField</H1>
+<H1>
+<HR>
+</H1>
+<P><FONT color=#0000ff size=2>&nbsp;</FONT><FONT 
+color=#000000>it assigns the fields in your Recordset which will retieve new 
+data when focus chang away from it</FONT></P>
+<P><STRONG><FONT color=#000080>Syntax:</FONT></STRONG></P><FONT 
+color=#000000><FONT color=#0000ff size=2>
+<P></FONT>Function &nbsp;KeyLeaveField(ByRef dm_MasterTable As ADODB.Recordset, 
+ByVal str_KeyLeaveField As String,  Optional ByVal n_ZeroPad As Byte = 0<FONT size=2><FONT 
+size=3>)</FONT></P>
+<P><img border="0" src="KeyLeave.gif" width="488" height="368"></P>
+<P><STRONG><FONT color=#000080 size=3>Note:</FONT></STRONG></P>
+<P><FONT size=3>n_ZeroPad parameter padding data with "0" character</FONT></P>
+<P><FONT size=3>this mean that '34' with&nbsp; n_ZeroPad is 4 will be '0034' 
+</FONT></P>
+<P><FONT size=3>this is useful for indexing and searching purposes if you want , 
+remember that is an optional parameter</FONT></P></FONT></FONT><STRONG></STRONG>
+<P><STRONG>Example:</STRONG></P><FONT color=#000000><FONT size=3>
+<P>DM.KeyLeaveField(oMaster, "OrderId", 
+5)</P></FONT></FONT></FONT>
+</BODY>
+</HTML>

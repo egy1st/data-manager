@@ -1,0 +1,5 @@
+Company: EgyWorld Software
+URL: Dynamic-components.net
+Product: DC DataManger
+Version: 1.0
+License: Not Licensed

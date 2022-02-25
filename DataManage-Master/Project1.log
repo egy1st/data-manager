@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "Project1.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "Project1"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "Project1.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "F:\DataManger\Project1.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "F:\DataManger\Project1.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "F:\DataManger\Form1.frm"
+        NewPath = "F:\DataManger\Project1.NET\Form1.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "caption"
+                ObjectType = "TextBox"
+                PME = "DataFormat"
+            >TextBox property caption.DataFormat was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "caption"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property caption.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "ID"
+                ObjectType = "TextBox"
+                PME = "DataFormat"
+            >TextBox property ID.DataFormat was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "ID"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property ID.MaxLength has a new behavior.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "xName"
+                ObjectType = "TextBox"
+                PME = "DataFormat"
+            >TextBox property xName.DataFormat was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "xName"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property xName.MaxLength has a new behavior.</Issue>
+        </Section>
+        <Section Name = "DelButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Find.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Delete.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Requery.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.BOF.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveFirst.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "ExitButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Close.</Issue>
+        </Section>
+        <Section Name = "FirstButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Requery.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveFirst.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Cn.Open.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1041"
+                PME = "TypeName"
+            >TypeName has a new behavior.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Open.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveFirst.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "ID_LostFocus" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Find.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveFirst.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.BOF.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "LastButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Requery.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveLast.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "NextButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MoveNext.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+        <Section Name = "PrevButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.MovePrevious.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.BOF.</Issue>
+        </Section>
+        <Section Name = "ClearData" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object col().</Issue>
+        </Section>
+        <Section Name = "ShowData" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object col().Name.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object col().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver().</Issue>
+        </Section>
+        <Section Name = "SaveData" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object col().Name.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object col().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1049"
+                PME = "IsNull"
+            >Use of Null/IsNull() detected.</Issue>
+        </Section>
+        <Section Name = "OkButton_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Find.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.Update.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.AddNew.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object oserver.EOF.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

@@ -1,0 +1,28 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>How to select some fields</title>
+</head>
+
+<body>
+
+<h1 align="left" dir="ltr"><font color="#000080">How to select some fields</font></h1>
+<hr>
+<p align="left" dir="ltr">Sometimes you want to include some fields of your 
+detail table , not all its fields<br>
+the next example do that </p>
+<p align="left" dir="ltr"><font color="#000080"><b>Example:</b></font></p>
+<p dir="ltr">oDetails.Open(&quot;select flag , billno , custno , custname , price 
+from OrderDetails&quot;, CN, oDetails.CursorType.adOpenKeyset, 
+oDetails.LockType.adLockOptimistic)</p>
+<p align="left" dir="ltr"><font color="#000080"><b>That is all !</b></font></p>
+<p align="left" dir="ltr">&nbsp;</p>
+<p align="left" dir="ltr">&nbsp;</p>
+
+</body>
+
+</html>

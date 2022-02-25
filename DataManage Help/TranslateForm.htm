@@ -1,0 +1,86 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>TranslateForm</title>
+</head>
+
+<body>
+
+<h1 dir="ltr"><font color="#000080"><b>TranslateForm</b></font></h1>
+<hr>
+<p dir="ltr">We support Multi Language Applications , you can use same 
+application with different languages</p>
+<p dir="ltr">All you need is:</p>
+<ol>
+    <li dir="ltr">
+    <p dir="ltr">Create a new table , name it &quot;Multilanguage&quot; and put it in your 
+    database </li>
+    <li dir="ltr">
+    <p dir="ltr">create 4 fields as specified</li>
+  </ol>
+  <table cellSpacing="0" cellPadding="1" width="100%" align="center" border="1" dir="ltr">
+    <tr>
+      <td width="33%" dir="ltr" bgcolor="#C0C0C0">
+      <p dir="ltr">Name</td>
+      <td width="33%" dir="ltr" bgcolor="#C0C0C0">
+      <p dir="ltr">Type</td>
+      <td width="33%" dir="ltr" bgcolor="#C0C0C0">
+      <p dir="ltr">Length</td>
+    </tr>
+    <tr>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Tag</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Text</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">50</td>
+    </tr>
+    <tr>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Id</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Text</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">50</td>
+    </tr>
+    <tr>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Language1</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Text</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">50</td>
+    </tr>
+    <tr>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Language2</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">Text</td>
+      <td width="33%" dir="ltr">
+      <p dir="ltr">50</td>
+    </tr>
+  </table>
+  <p dir="ltr">&nbsp;&nbsp;&nbsp; 3. Fill Tag field with your Form Name</p>
+  <p dir="ltr">&nbsp;&nbsp;&nbsp; 4. Fill Id Field with your Label&nbsp; name</p>
+  <p dir="ltr">&nbsp;&nbsp;&nbsp; 5. Fill Language1 field with your first language translation</p>
+  <p dir="ltr">&nbsp;&nbsp;&nbsp; 6.&nbsp; Fill Language2&nbsp; field with your second&nbsp; language 
+  translation and so on , you can add many&nbsp;&nbsp;&nbsp; </p>
+  <p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; languages as you like , no 
+  limitation !</p>
+  <p dir="ltr"><b><font color="#000080">Note:</font></b></p>
+  <p dir="ltr">to change form text put form name in both field tag and id</p>
+  <p dir="ltr"><b><font color="#000080">Syntax:</font></b></p>
+  <p dir="ltr">Function TranslateForm(ByRef dm_Form As System.Windows.Forms.Form, ByVal 
+  dm_Language As Byte)</p>
+  <p dir="ltr"><b><font color="#000080">Example:</font></b></p>
+  <p dir="ltr">DM.TranslateForm(Me, 3)</p>
+  <p dir="ltr">This will populate your form text and all its labels with your translation 
+  in field &quot;Languge3&quot; in table &quot;Multilanguage&quot;</p>
+  <p dir="ltr"><font color="#000080">Example of French Translation</font></p>
+  <p dir="ltr"><img border="0" src="TranslateForm.gif" width="488" height="368"></p>
+  <p dir="ltr">&nbsp;</p>
+  <p dir="ltr">&nbsp;</body></html>
